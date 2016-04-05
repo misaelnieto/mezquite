@@ -39,10 +39,10 @@ AM_CONDITIONAL(NATIVE_WIN32, test x"$native_win32" = "xyes")
 dnl Check for vala
 AM_PROG_VALAC([0.10.0])
 
-
 PKG_CHECK_MODULES(LIBXML,libxml-2.0)
-
-PKG_CHECK_MODULES(MEZQUITE, [gtk+-3.0 libgda-6.0])
+PKG_CHECK_MODULES(GLIB, glib-2.0)
+PKG_CHECK_MODULES(GTK, gtk+-3.0)
+PKG_CHECK_MODULES(LIBGDA, [libgda-6.0, libgda-ui-6.0])
 
 
 AC_OUTPUT([

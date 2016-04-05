@@ -1,0 +1,14 @@
+They wrote a debugger in MySQL stored procedures.
+
+https://code.launchpad.net/~hp-mdbug-team/mdbug/trunk
+
+They were inspired by MDBug and wrote a GUI in QT
+
+http://ocelot.ca/blog/blog/2015/03/02/the-ocelotgui-debugger/
+https://github.com/ocelot-inc/ocelotgui
+
+This is a brief description on how Ocelot works:
+
+http://ocelot.ca/blog/blog/2014/08/19/an-open-source-mysqlmariadb-gui-client-on-linux/
+
+

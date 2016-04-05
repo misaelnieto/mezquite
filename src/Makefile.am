@@ -12,7 +12,7 @@ AM_CPPFLAGS = \
 	-DPACKAGE_SRC_DIR=\""$(srcdir). \
 	$(libxml-2.0_CFLAGS)"\" \
 	-DPACKAGE_DATA_DIR=\""$(pkgdatadir)"\" \
-	$(MEZQUITE_CFLAGS)
+	$(GTK_CFLAGS)
 
 AM_CFLAGS =\
 	 -Wall\
@@ -29,7 +29,7 @@ mezquite_VALAFLAGS =  --pkg libgda-6.0  \
 
 mezquite_LDFLAGS =
 
-mezquite_LDADD = $(MEZQUITE_LIBS) \
+mezquite_LDADD = $(GTK_LIBS) \
 	$(libxml-2.0_LIBS)
 
 
